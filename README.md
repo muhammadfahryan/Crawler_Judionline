@@ -32,4 +32,21 @@ Untuk menginstal semua dependencies Python, jalankan perintah berikut:
 
 ```bash
 pip install dnspython whois selenium psycopg2-binary webdriver-manager requests
+```
+
+## Database Setup
+```bash
+def connect_db():
+    return psycopg2.connect(
+        dbname='ryan',  
+        user='ryan',         
+        password='ryan',    
+        host='10.100.13.205',        
+        port='5432'              
+    )
+```
+
+## Usage
+```bash
+python crawler_judi.py
 
