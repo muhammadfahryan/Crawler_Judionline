@@ -12,10 +12,10 @@ import json
 # Koneksi ke PostgreSQL
 def connect_db():
     return psycopg2.connect(
-        dbname='ryan',  
-        user='ryan',         
-        password='ryan',    
-        host='10.100.13.205',        
+        dbname='***',  
+        user='***',         
+        password='***',    
+        host='10.100.13.***',        
         port='5432'              
     )
 
